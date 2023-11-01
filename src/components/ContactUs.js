@@ -11,16 +11,25 @@ function ContactUs() {
         height: "50vh",
       }}
     >
-      <h2 style={{ textAlign: "center" }}>Contact Us</h2>
-      <p style={{ textAlign: "center" }}></p>
+      <h2 style={{ textAlign: "center", color: "white" }}>Contact Us</h2>
       <div style={{ textAlign: "center" }}>
-        <strong style={{ fontSize: "40px" }}>Email:</strong>{" "}
-        <a
-          href="mailto:info@machievellie.solutions"
-          style={{ fontSize: "40px" }}
+        <button
+          style={{
+            fontSize: "40px",
+            padding: "10px 20px",
+            cursor: "pointer",
+            backgroundColor: "white",
+            color: "#333",
+            border: "2px solid #ccc",
+            borderRadius: "10px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+          }}
+          onClick={() =>
+            (window.location.href = "mailto:info@machievellie.solutions")
+          }
         >
-          info@machievellie.solutions
-        </a>
+          Email Us
+        </button>
       </div>
     </div>
   );

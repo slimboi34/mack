@@ -83,3 +83,21 @@ p {
   color: #444;
 }
 
+/* GlobalStyles.css */
+.desktop {
+  display: none;
+}
+
+.tablet-or-mobile {
+  display: block;
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 1224px) {
+  .desktop {
+    display: block;
+  }
+  .tablet-or-mobile {
+    display: none;
+  }
+}

@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage";
 import WhatWeOffer from "./components/WhatWeOffer";
 import GlobalStyles from "./components/GlobalStyles";
 import CrazyBackground from "./components/CrazyBackground";
+import ResponsiveComponent from "./components/ResponsiveComponent"; // <-- Import here
 
 function App() {
   const theme = {
@@ -19,6 +20,7 @@ function App() {
       <CrazyBackground />
       <div className="App">
         <Navbar />
+        <ResponsiveComponent /> {/* <-- Use it here */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact-us" element={<ContactUs />} />

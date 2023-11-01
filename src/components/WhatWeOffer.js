@@ -109,7 +109,7 @@ const WhatWeOffer = () => {
       description: "AI-driven personalized financial planning services.",
     },
     {
-      title: "Freelancer Financial Services",
+      title: "Financial Services",
       description:
         "Financial services for freelancers, including tax planning, invoicing, and retirement planning.",
     },
